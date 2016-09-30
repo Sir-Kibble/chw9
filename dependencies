@@ -1,0 +1,4 @@
+./obj_files/main.o: src_files/main.c inc_files/main.h inc_files/cards.h \
+ inc_files/printer.h
+./obj_files/cards.o: src_files/cards.c inc_files/cards.h
+./obj_files/printer.o: src_files/printer.c inc_files/cards.h inc_files/printer.h
